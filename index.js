@@ -87,8 +87,8 @@ bot.on('message', message => {
         .setTitle("Informations :")
         .addField("Etat du serveur :", "En développement")
         .addField("Twitter :", "https://twitter.com/NobeliaMC")
-        .addField("Site :", "nobelia.net")
-        .addField("Forum :", "community.nobelia.net")
+        .addField("Site :", "https://nobelia.net")
+        .addField("Forum :", "https://community.nobelia.net")
         .addField("Teamspeak :", "ts.nobelia.net")
         .setFooter("© Choupette | Nobelia.net")
         message.channel.send(infos_embed);
