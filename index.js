@@ -28,6 +28,7 @@ bot.on('message', message => {
         .addField("/version", "Affiche la version du bot.")
         .addField("/mod", "Affiche les commandes de modération.")
         .addField("/stats", "Affiche t'es statistiques.")
+        .addField("/infos", "Affiche des informations sur Nobélia.")
         .setFooter("© Choupette | Nobelia.net")
         message.channel.send(help_embed);
     }
